@@ -1,0 +1,256 @@
+
+
+html {
+  height: 100%;
+
+}
+
+small {
+  font-size: 0.7em;
+}
+
+h4 {
+  line-height: normal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+P{
+  color: #CEBFBF;
+}
+
+h4{
+  color: white;
+}
+
+div.card-body{
+  color: #181616;
+  background-color:#3b3e3e
+
+}
+strong{
+  color:white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;
+  background-color: #181616;
+}
+
+header,
+iframe {
+  width: 100%;
+}
+
+.dark-background {
+  background: gainsboro;
+}
+
+.title-row,
+.copyright-col {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  button.btn.btn-info.float-right {
+    width: 100%;
+  }
+}
+
+p.card-text {
+  font-size: 0.8em;
+}
+
+section {
+  padding: 10px 0px;
+  border-radius: 3px;
+  margin-bottom: 35px;
+}
+
+footer {
+  padding: 30px 0px;
+}
+
+@media (max-width: 767px) {
+  .footer-icon {
+    text-align: center;
+  }
+}
+
+/* FIM CSS Geral */
+
+/* Lançamentos */
+
+div.carousel-item div.lancamento-poster {
+  text-align: center;
+}
+
+div.carousel-item div.lancamento-poster img {
+  width: auto;
+}
+
+div.container section#section-lancamentos {
+  padding-top: 80px;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse {
+  font-size: 0.9em;
+  line-height: normal;
+  color: white;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse strong {
+  font-size: 1.1em;
+  color: white;
+}
+
+div#carousel-lancamentos div.carousel-item div.row > div {
+  margin-bottom: 10px;
+  color: white;
+}
+
+div#carousel-lancamentos div.carousel-inner {
+  padding-bottom: 30px;
+  min-height: 430px;
+}
+
+@media (min-width: 991px) {
+  div#carousel-lancamentos div.carousel-inner {
+    padding-bottom: 50px;
+  }
+}
+
+div#carousel-lancamentos ol.carousel-indicators .active {
+  background-color: #17a2b8;
+}
+
+/* FIM Lançamentos */
+
+/* Destaque */
+
+section#section-destaque {
+  padding-top: 20px;
+}
+
+.filme-destaque {
+  margin-bottom: 15px;
+  height: 100%;
+}
+
+/* FIM Destaque */
+
+/* Avaliações */
+
+section#section-avaliacoes div.cards-avaliacao div.col-12 {
+  margin-bottom: 10px;
+}
+
+section#section-avaliacoes div.cards-avaliacao div.card {
+  min-height: 200px;
+}
+
+/* FIM Avaliações */
+
+/* Entrevistas */
+
+section#section-entrevistas div.card {
+  background: gainsboro;
+  border-color: gainsboro;
+}
+
+section#section-entrevistas div.card h5.card-title {
+  font-size: 1.2em;
+}
+
+/* FIM Entrevistas */
+
+/* Novidades */
+
+section#section-novidades div.sobre-col {
+  line-height: normal;
+  font-size: 0.9em;
+}
+
+section#section-novidades div.novidades-col {
+  margin-bottom: 50px;
+}
+
+/* FIM Novidades */
+
+/* Filme */
+.lancamento-poster {
+  padding-bottom: 20px;
+}
+
+div.container section#section-filme {
+  padding: 80px 10px 5px;
+  overflow: hidden;
+}
+
+section#section-filme img {
+  width: auto;
+  height: auto;
+}
+
+section#section-filme .lancamento-poster {
+  text-align: center;
+}
+
+.filme-sinopse {
+  font-size: 0.9em;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.filme-sinopse strong {
+  font-size: 1.1em;
+}
+
+.votos {
+  color: black;
+  font-size: 0.7em;
+}
+
+a {
+  color: #17a2b8;
+}
+
+.produtoras-row {
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (min-width: 991px) {
+  .produtoras-row {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+  }
+}
+
+/* FIM Filme */
+
+/* Pesquisa */
+div.container section#section-pesquisa {
+  padding: 80px 10px 5px;
+  overflow: hidden;
+}
+
+section#section-pesquisa img {
+  height: auto;
+  min-width: 100%;
+}
+
+.page-item.disabled .text-info {
+  color: gray !important;
+}
+/* FIM Pesquisa */
